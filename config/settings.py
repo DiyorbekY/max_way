@@ -79,9 +79,9 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': "food_db",
-        'USER': "foood_admin",
-        'PASSWORD': 'root',
+        'NAME': "base_db",
+        'USER': "base_admin",
+        'PASSWORD': 'PASSWORD',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
